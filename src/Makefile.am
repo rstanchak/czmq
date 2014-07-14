@@ -9,41 +9,41 @@ pkgconfig_DATA = libczmq.pc
 
 include_HEADERS = \
     ../include/czmq.h \
-    ../include/czmq_prelude.h \
-    ../include/zactor.h \
-    ../include/zauth.h \
-    ../include/zbeacon.h \
-    ../include/zcert.h \
-    ../include/zcertstore.h \
-    ../include/zchunk.h \
-    ../include/zclock.h \
-    ../include/zconfig.h \
-    ../include/zdigest.h \
-    ../include/zdir.h \
-    ../include/zdir_patch.h \
-    ../include/zfile.h \
-    ../include/zframe.h \
-    ../include/zhash.h \
-    ../include/zgossip.h \
-    ../include/zlist.h \
-    ../include/zloop.h \
-    ../include/zmsg.h \
-    ../include/zpoller.h \
-    ../include/zproxy.h \
-    ../include/zrex.h \
-    ../include/zsock.h \
-    ../include/zsock_monitor.h \
-    ../include/zsock_option.h \
-    ../include/zstr.h \
-    ../include/zsys.h \
-    ../include/zuuid.h \
+    ../include/czmq/czmq_prelude.h \
+    ../include/czmq/zactor.h \
+    ../include/czmq/zauth.h \
+    ../include/czmq/zbeacon.h \
+    ../include/czmq/zcert.h \
+    ../include/czmq/zcertstore.h \
+    ../include/czmq/zchunk.h \
+    ../include/czmq/zclock.h \
+    ../include/czmq/zconfig.h \
+    ../include/czmq/zdigest.h \
+    ../include/czmq/zdir.h \
+    ../include/czmq/zdir_patch.h \
+    ../include/czmq/zfile.h \
+    ../include/czmq/zframe.h \
+    ../include/czmq/zhash.h \
+    ../include/czmq/zgossip.h \
+    ../include/czmq/zlist.h \
+    ../include/czmq/zloop.h \
+    ../include/czmq/zmsg.h \
+    ../include/czmq/zpoller.h \
+    ../include/czmq/zproxy.h \
+    ../include/czmq/zrex.h \
+    ../include/czmq/zsock.h \
+    ../include/czmq/zsock_monitor.h \
+    ../include/czmq/zsock_option.h \
+    ../include/czmq/zstr.h \
+    ../include/czmq/zsys.h \
+    ../include/czmq/zuuid.h \
     zgossip_msg.h \
-    ../include/zctx.h \
-    ../include/zmonitor.h \
-    ../include/zmutex.h \
-    ../include/zsocket.h \
-    ../include/zsockopt.h \
-    ../include/zthread.h
+    ../include/czmq/zctx.h \
+    ../include/czmq/zmonitor.h \
+    ../include/czmq/zmutex.h \
+    ../include/czmq/zsocket.h \
+    ../include/czmq/zsockopt.h \
+    ../include/czmq/zthread.h
 
 libczmq_la_SOURCES = \
     platform.h \
